@@ -6,7 +6,7 @@
 
     <ion-content>
         <ion-list>
-            <button ion-item  *ngFor="let pagina of paginas"(click)="openPage(pagina)" menuToggle>
+            <button ion-item  *ngFor="let pagina of pages"(click)="openPage(pagina)" menuToggle>
               <ion-icon name= "{{pagina.icon}}"> </ion-icon>
                 {{pagina.title}}
             </button>
